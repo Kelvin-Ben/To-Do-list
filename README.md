@@ -7,13 +7,15 @@
 
 ## Built With
 
-- Major languages (HTML/CSS/JAVASCRIPT)
-- Frameworks(NO BOOTSTRAP)
-- Technologies used
+- HTML
+- CSS
+- JavaScript
+- ES6
+- Webpack
 
 ## Live Demo 
 
-[[Live Demo Link](https://kelvin-ben.github.io/Awesome-Books-with-ES6/)
+[[Live Demo Link](https://kelvin-ben.github.io/To-Do-list/)
 
 
 ## Getting Started
