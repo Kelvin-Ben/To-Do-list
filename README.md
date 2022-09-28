@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 **This is the Awesome books: with ES6 Modules: plain JavaScript with classes**
 
 ### Prerequisites
-    Web Browser (e.g. Firefox, Chrome, Edge)
+    Web Browser (e.g. Firefox, Google Chrome, Edge)
 
 ### Setup
     -using git command line
