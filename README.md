@@ -1,56 +1,51 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# To Do list: list structure
 
-> Description the project.
+> In this project, you will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
+- Major languages (HTML/CSS/JAVASCRIPT)
+- Frameworks(NO BOOTSTRAP)
 - Technologies used
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[[Live Demo Link](https://kelvin-ben.github.io/Awesome-Books-with-ES6/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
+**This is the Awesome books: with ES6 Modules: plain JavaScript with classes**
+
 ### Prerequisites
+    Web Browser (e.g. Firefox, Chrome, Edge)
 
 ### Setup
+    -using git command line
+      if you are using the git command line, please use this command in your terminal
+        git@github.com:Kelvin-Ben/Awesome-Books-with-ES6.git
+    -using the GitHub Desktop
+      if you are using the desktop version of github, please  click on the green "code" button and click on "Open with GitHub Desktop" 
+
 
 ### Install
+    Install the linters in your local environment to mantain your code clean 
 
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 ### Kelvin Benjamin
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Kelvin-Ben](https://github.com/Kelvin-Ben)
+- Twitter: [@Kevoyout144](https://twitter.com/kevoyout144)
+- Linkedin [Kelvin-ben](https://www.linkedin.com/in/kelvin-ben-323043173/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
