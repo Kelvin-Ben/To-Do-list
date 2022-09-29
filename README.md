@@ -2,18 +2,22 @@
 
 # To Do list: list structure
 
-> In this project, you will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
+> In this project, I build a simple HTML list of To-Do tasks.
+> The list will be styled according to the specifications.
+> This simple web page will be built using webpack and served by a webpack dev server.
 
 
 ## Built With
 
-- Major languages (HTML/CSS/JAVASCRIPT)
-- Frameworks(NO BOOTSTRAP)
-- Technologies used
+- HTML
+- CSS
+- JavaScript
+- ES6
+- Webpack
 
 ## Live Demo 
 
-[[Live Demo Link](https://kelvin-ben.github.io/Awesome-Books-with-ES6/)
+[[Live Demo Link](https://kelvin-ben.github.io/To-Do-list/)
 
 
 ## Getting Started
@@ -22,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 **This is the Awesome books: with ES6 Modules: plain JavaScript with classes**
 
 ### Prerequisites
-    Web Browser (e.g. Firefox, Chrome, Edge)
+    Web Browser (e.g. Firefox, Google Chrome, Edge)
 
 ### Setup
     -using git command line
