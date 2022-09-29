@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-import createElement from './HtmlElement.js';
+import createHtmlelement from './createHtmlelement.js';
 
 let tasks = [
   {
@@ -7,21 +6,38 @@ let tasks = [
     completed: true,
     index: 1,
   },
+
   {
     description: 'study',
     completed: true,
     index: 2,
   },
+
   {
     description: 'play',
     completed: true,
     index: 3,
   },
+
+  {
+    description: 'watch',
+    completed: true,
+    index: 4,
+  },
+
+  {
+    description: 'hangout',
+    completed: true,
+    index: 5,
+  },
 ];
-const taskcontainer = document.querySelector('to-do-list');
+
+const tasksContainer = document.querySelector('.todo-list');
+
 tasks = tasks.sort((a, b) => (b.index - a.index));
+
 export default () => {
-  tasks.forEach((tasks) => {
-    createElement = ('li', 'task-item', 'task-item', `${tasks.description}`, taskcontainer);
+  tasks.forEach((element) => {
+    createHtmlelement('li', 'task-items', 'task-item', `${element.description}`, tasksContainer);
   });
 };
