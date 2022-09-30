@@ -1,46 +1,119 @@
-body {
-  background-color: bisque;
-  font-family: 'Poppins', sans-serif;
-}
-
 .container {
-  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  color: #7b7b7b;
+}
+
+.todolist_place_holder {
+  min-width: 500px;
+  max-width: 60%;
+}
+
+.todoelement {
+  padding: 0.5em;
+  display: flex;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.title_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.refresh_div {
+  padding: 0.5em;
+}
+
+.refresh_div:hover {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.add_todo_input {
+  border: none;
+  width: 100%;
+  color: inherit;
+  font-family: inherit !important;
+}
+
+.add_todo_input:focus {
+  outline: none !important;
+  color: inherit;
+  font-family: inherit;
+}
+
+.add_submit_button {
+  border: none;
+  background-color: inherit;
+}
+
+.todo_add_icon {
+  padding: 0.5em;
+}
+
+.todo_add_icon:hover {
+  height: 14px;
+  padding: 0.5em;
+}
+
+.todolist {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  overflow: hidden;
-  color: #545862;
-}
-
-.container h1 {
-  font-size: 18px;
-  font-weight: 600;
-  padding: 1rem 0;
-  line-height: 1.6;
-  margin: 0;
-  width: 100%;
-  height: 1.8em;
-  border-bottom: solid 1px rgba(0, 0, 0, 1);
-}
-
-.todo-list {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 0 1em;
-  margin: 0;
-  color: #000;
+  margin-bottom: 0;
+  margin-top: 0;
+  border-bottom: none;
+  padding: 0;
+  justify-content: space-evenly;
 }
 
-.task-item {
-  width: 100%;
-  height: 3em;
-  font-size: 0.8rem;
-  font-weight: 300;
-  line-height: 20px;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.08);
+.todo_details {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-bottom: 1px solid #f6f6f6;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statut_and_detail {
+  display: flex;
+  gap: 1em;
+}
+
+.todo_clear_all_completed {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 01em;
+  border: none;
+  color: #7b7b7b;
+  font-family: 'Open sans', sans-serif;
+  background-color: #f6f6f6;
+}
+
+.hidden_item {
+  display: none;
+}
+
+.todo_description {
+  border: none;
+  color: inherit;
+  font-family: inherit !important;
+  font-size: inherit;
+}
+
+.todo_description:focus {
+  outline: none !important;
+  color: inherit;
+  font-family: inherit;
+}
+
+.line_through {
+  text-decoration: line-through;
 }
