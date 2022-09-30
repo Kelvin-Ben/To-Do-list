@@ -1,12 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do list: list structure
+# To Do list: interactive list
 
-> In this project, I build a simple HTML list of To-Do tasks.
-> The list will be styled according to the specifications.
-> This simple web page will be built using webpack and served by a webpack dev server.
-> Implement the CRUD (create, read, update, delete) methods.
-> All the elements of the user interface will be fully functional.
+> In this project, I will add some functionality to your application to make it interactive.
+> The user will also be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox).
+> The updated tasks list will be stored in local storage.
 
 
 ## Built With
@@ -68,7 +66,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-
