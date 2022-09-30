@@ -43,16 +43,23 @@ function displayComponent(elmnts) {
     }
   }
 }
+<<<<<<< HEAD
 function focusInput(index) {
   hideComponent(document.querySelector(`.details${index}`));
   displayComponent(document.querySelector(`.delete${index}`));
 }
+=======
+>>>>>>> interactive-list
 function displayLineThroughComponent(elmntsParam) {
   const test = elmntsParam.classList;
   if (!test.contains('line_through')) {
     test.toggle('line_through');
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> interactive-list
 function removeLineThroughComponent(elmnts) {
   if (elmnts.isArray) {
     elmnts.forEach((elmnt) => {
@@ -68,6 +75,10 @@ function removeLineThroughComponent(elmnts) {
     }
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> interactive-list
 function completeTask(index) {
   hideComponent(document.querySelector(`.uncomplete${index}`));
   displayComponent(document.querySelector(`.complete${index}`));
@@ -75,7 +86,10 @@ function completeTask(index) {
   displayComponent(document.querySelector(`.delete${index}`));
   displayLineThroughComponent(document.querySelector(`.input${index}`));
   tasklist.localData[index - 1].setCompleted(true);
+<<<<<<< HEAD
   tasklist.refreshIndex();
+=======
+>>>>>>> interactive-list
 }
 
 function uncompleteTask(index) {
@@ -85,12 +99,20 @@ function uncompleteTask(index) {
   displayComponent(document.querySelector(`.details${index}`));
   removeLineThroughComponent(document.querySelector(`.input${index}`));
   tasklist.localData[index - 1].setCompleted(false);
+<<<<<<< HEAD
   tasklist.refreshIndex();
 }
 
 function clearCompletedTasks() {
   tasklist.clearCompletedTasks();
   refreshTodoList();
+=======
+}
+
+function focusInput(index) {
+  hideComponent(document.querySelector(`.details${index}`));
+  displayComponent(document.querySelector(`.delete${index}`));
+>>>>>>> interactive-list
 }
 
 function lifocusout(index) {
@@ -107,7 +129,14 @@ function removeTask(index) {
   tasklist.removeItem(index - 1);
   refreshTodoList();
 }
+<<<<<<< HEAD
 
+=======
+function clearCompletedTasks() {
+  tasklist.clearCompletedTasks();
+  refreshTodoList();
+}
+>>>>>>> interactive-list
 function displayDeleteButton(index) {
   hideComponent(document.querySelector(`.details${index}`));
   displayComponent(document.querySelector(`.delete${index}`));
