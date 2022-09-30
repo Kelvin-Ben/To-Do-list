@@ -2,7 +2,7 @@ import Task from './task.js';
 
 export default class TaskList {
   constructor() {
-    localStorage.setItem('tasklist', JSON.stringify(this.localData));
+    this.localData = JSON.parse(localStorage.getItem('tasklist')) || [];
   }
 
   generateTodoIndex() {
