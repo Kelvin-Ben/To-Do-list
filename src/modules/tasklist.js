@@ -2,7 +2,6 @@ import Task from './task.js';
 
 export default class TaskList {
   constructor() {
-<<<<<<< HEAD
     this.localData = [];
     const tempsData = JSON.parse(localStorage.getItem('taskList')) || [];
     if (tempsData.length > 0) {
@@ -10,9 +9,6 @@ export default class TaskList {
         this.localData.push(new Task(element.description, element.index, element.completed));
       });
     }
-=======
-    this.localData = JSON.parse(localStorage.getItem('tasklist')) || [];
->>>>>>> interactive-list
   }
 
   generateTodoIndex() {
@@ -20,13 +16,8 @@ export default class TaskList {
   }
 
   refreshIndex() {
-<<<<<<< HEAD
     this.localData.forEach((task, index) => {
       task.index = index + 1;
-=======
-    this.localData.forEach((task, key) => {
-      task.index = key + 1;
->>>>>>> interactive-list
     });
     this.localStrore();
   }
@@ -58,19 +49,7 @@ export default class TaskList {
   }
 
   clearCompletedTasks() {
-<<<<<<< HEAD
     this.localData = this.localData.filter((ontask) => ontask.completed === false);
-=======
-    const temps = [];
-    this.localData.forEach((task, index) => {
-      if (task.completed === true) {
-        temps.push(index);
-      }
-    });
-    temps.forEach((element) => {
-      this.removeItem2(element);
-    });
->>>>>>> interactive-list
     this.refreshIndex();
   }
 }
