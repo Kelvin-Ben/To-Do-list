@@ -14,8 +14,7 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
-    publicPath: '/',
+    assetModuleFilename: 'images/[name][ext]',
   },
   module: {
     rules: [
@@ -27,6 +26,10 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: ['babel-loader'],
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader',
       },
     ],
   },
