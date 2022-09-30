@@ -72,7 +72,6 @@ function completeTask(index) {
   hideComponent(document.querySelector(`.details${index}`));
   displayComponent(document.querySelector(`.delete${index}`));
   displayLineThroughComponent(document.querySelector(`.input${index}`));
-  // console.log(tasklist.localData[index-1].getCompleted());
   tasklist.localData[index - 1].setCompleted(true);
 }
 
@@ -108,6 +107,16 @@ function clearCompletedTasks() {
   tasklist.clearCompletedTasks();
   refreshTodoList();
 }
+function displayDeleteButton(index) {
+  hideComponent(document.querySelector(`.details${index}`));
+  displayComponent(document.querySelector(`.delete${index}`));
+}
+function hideDeleteButton(index) {
+  hideComponent(document.querySelector(`.details${index}`));
+  displayComponent(document.querySelector(`.delete${index}`));
+}
+document.hideDeleteButton = hideDeleteButton;
+document.displayDeleteButton = displayDeleteButton;
 document.completeTask = completeTask;
 document.uncompleteTask = uncompleteTask;
 document.focusInput = focusInput;
