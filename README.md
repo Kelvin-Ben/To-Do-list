@@ -5,6 +5,8 @@
 > In this project, I build a simple HTML list of To-Do tasks.
 > The list will be styled according to the specifications.
 > This simple web page will be built using webpack and served by a webpack dev server.
+> Implement the CRUD (create, read, update, delete) methods.
+> All the elements of the user interface will be fully functional.
 
 
 ## Built With
@@ -17,7 +19,7 @@
 
 ## Live Demo 
 
-[[Live Demo Link](https://kelvin-ben.github.io/To-Do-list/)
+[[Live Demo Link](https://kelvin-ben.github.io/To-Do-list/)]
 
 
 ## Getting Started
@@ -31,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
     -using git command line
       if you are using the git command line, please use this command in your terminal
-        git@github.com:Kelvin-Ben/Awesome-Books-with-ES6.git
+        git@github.com:Kelvin-Ben/To-Do-list.git
     -using the GitHub Desktop
       if you are using the desktop version of github, please  click on the green "code" button and click on "Open with GitHub Desktop" 
 
@@ -68,7 +70,5 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## 📝 License
-
-This project is [https://choosealicense.com/licenses/mit/](./LICENSE) licensed.
 
 
