@@ -17,7 +17,7 @@
 
 ## Live Demo 
 
-[[Live Demo Link](https://kelvin-ben.github.io/To-Do-list/)
+[[Live Demo Link](https://kelvin-ben.github.io/To-Do-list/)]
 
 
 ## Getting Started
@@ -38,6 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
     Install the linters in your local environment to mantain your code clean 
+
 
 
 
@@ -65,7 +66,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
