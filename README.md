@@ -17,7 +17,7 @@
 
 ## Live Demo 
 
-[[Live Demo Link](https://kelvin-ben.github.io/To-Do-list/)]
+[[Live Demo] Link](https://kelvin-ben.github.io/To-Do-list/)]
 
 
 ## Getting Started
