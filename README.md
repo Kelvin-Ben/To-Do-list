@@ -3,6 +3,10 @@
 # Todo List Application
 > The Todo List Application is a JavaScript-based web application that allows users to manage and organize their tasks. It provides an intuitive interface for creating, updating, and deleting tasks, as well as marking tasks as complete.
 
+
+![todo](https://github.com/Kelvin-Ben/To-Do-list/assets/85459676/a9eb8d39-dcfd-4b38-8c73-b8619dee5a60)
+
+
 ### Features
 - Create new tasks with titles and optional descriptions.
 - Mark tasks as complete.
