@@ -1,68 +1,61 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![IMG_20210430_165321 (3)](https://github.com/Kelvin-Ben/To-Do-list/assets/85459676/06b18cac-e1db-4545-bb1b-f7b39a76ad52)
 
-# To Do list: interactive list
+# Todo List Application
+> The Todo List Application is a JavaScript-based web application that allows users to manage and organize their tasks. It provides an intuitive interface for creating, updating, and deleting tasks, as well as marking tasks as complete.
 
-> In this project, I will add some functionality to your application to make it interactive.
-> The user will also be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox).
-> The updated tasks list will be stored in local storage.
+### Features
+- Create new tasks with titles and optional descriptions.
+- Mark tasks as complete.
+- Edit task details, such as title and description.
+- Delete tasks.
+- Filter tasks based on their completion status (all, completed, or active).
+- Persistent data storage using local storage.
 
-
-## Built With
-
+### Technologies Used
 - HTML
 - CSS
-- JavaScript
-- ES6
-- Webpack
+- JavaScript(ES6)
 
-## Live Demo 
+### Live Demo 
 
 [Live Demo](https://fastidious-quokka-20f996.netlify.app/)
 
 
-## Getting Started
-To get a local copy up and running follow these simple example steps.
+### Getting Started
+To use the Todo List Application locally, follow these steps:
+1. Clone the repository: ```git clone git@github.com:Kelvin-Ben/To-Do-list.git```
+2. Navigate to the project directory: ```cd To-Do-list```
+3. Open the **index.html** file in your preferred web browser.
 
-**This is the Awesome books: with ES6 Modules: plain JavaScript with classes**
+### Usage
+- Add a new task by entering a title and, optionally, a description in the provided input fields and clicking the "Add Task" button.
+- Existing tasks are displayed in a list format, with each task showing its title, description, and completion status.
+- Click the checkbox next to a task to mark it as complete. Completed tasks are visually differentiated from active tasks.
+- Edit a task by clicking the "Edit" button next to the task. This will open a modal window where you can update the task's title and description.
+- Delete a task by clicking the "Delete" button next to the task. This will remove the task from the list.
+- Use the filter options (All, Completed, Active) to display tasks based on their completion status.
+- The application automatically persists task data using local storage, so your tasks will be saved even after refreshing the page.
+### Authors
 
-### Prerequisites
-    Web Browser (e.g. Firefox, Google Chrome, Edge)
-
-### Setup
-    -using git command line
-      if you are using the git command line, please use this command in your terminal
-        git@github.com:Kelvin-Ben/To-Do-list.git
-    -using the GitHub Desktop
-      if you are using the desktop version of github, please  click on the green "code" button and click on "Open with GitHub Desktop" 
-
-
-### Install
-    Install the linters in your local environment to mantain your code clean 
-
-
-
-
-## Authors
-
-👤 ### Kelvin Benjamin
+👤 **Kelvin Benjamin**
 
 - GitHub: [@Kelvin-Ben](https://github.com/Kelvin-Ben)
 - Twitter: [@Kevoyout144](https://twitter.com/kevoyout144)
 - Linkedin [Kelvin-ben](https://www.linkedin.com/in/kelvin-ben-323043173/)
 
 
-## 🤝 Contributing
+### 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+- Contributions to this Todo List Application are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-Feel free to check the [issues page](../../issues/).
+- Feel free to check the [issues page](../../issues/).
 
-## Show your support
+### Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+### Acknowledgments
+- Thanks to [Microverse](https://www.microverse.org/) for providing such a fantastic platform to learn and collaborate with people from all around the world.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+### License
+- This project is licensed under the [MIT License](https://mit-license.org/)
