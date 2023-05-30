@@ -22,7 +22,7 @@
 
 ### Live Demo 
 
-[Live Demo](https://fastidious-quokka-20f996.netlify.app/)
+To interact with project click [here](https://sprightly-cocada-c4b6ff.netlify.app/)
 
 
 ### Getting Started
